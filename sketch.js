@@ -2,7 +2,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
 
     frameRate(40);
-  // somDoJogo.loop();
+    somDoJogo.loop();
     jogo = new Jogo();
     jogo.setup();
 
